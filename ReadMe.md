@@ -34,7 +34,7 @@ o8t_venv\Scripts\activate
 **On macOS/Linux:**
 
 ```bash
-source skull_stripping_env/bin/activate
+source o8t_venv/bin/activate
 ```
 
 3. Install Dependencies
