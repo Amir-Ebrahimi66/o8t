@@ -120,7 +120,7 @@ class MRIProcessor:
                 target_shape=self.transformed_img.shape,
                 interpolation="nearest",  # Nearest-neighbor avoids soft mask values
                 force_resample=True,
-                copy_header=True
+                # copy_header=True
             )
 
             resampled_mask_data = resampled_mask_img.get_fdata()

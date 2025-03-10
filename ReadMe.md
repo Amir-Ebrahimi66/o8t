@@ -44,6 +44,14 @@ Install the required dependencies using poetry.
 ```bash
 poetry install
 ```
+
+In case the above command does not work, you can install the dependencies manually using pip.
+This file is created for python 3.8. 
+
+```bash
+pip install -r requirements.txt
+```
+
 4. Run the Code
 
 ```commandline
